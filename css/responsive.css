@@ -416,7 +416,7 @@
   }
 
   .button-container {
-    display: none;
+    display: inherit;
   }
 
   #sidebar-container {
