@@ -397,7 +397,7 @@
 }
 
 @media (min-width: 1024px) and (max-height: 490px) {
-  body {
+  html {
     min-height: 120%;
   }
 }
