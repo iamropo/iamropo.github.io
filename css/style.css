@@ -37,6 +37,11 @@ body {
 	width: 1366px;
 	height: 768px;
 	box-shadow: 1px 5px 20px #000000;
+<<<<<<< HEAD
+=======
+/*	margin-top: auto;
+	margin-bottom: auto;*/
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
 }
 
 .base {
@@ -46,9 +51,12 @@ body {
 
 #sidebar-container {
 	width: 25%;
+<<<<<<< HEAD
 	background-color: #ffffff;
 	justify-content: center;
 	align-items: center;
+=======
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
 }
 
 #main-body-container {

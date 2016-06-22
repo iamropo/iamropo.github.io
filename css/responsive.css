@@ -51,12 +51,20 @@
 }
 
 @media (max-width: 960px) {
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
   html, body {
     width: 100%;
     height: 100%;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
   #wrapper {
     height: 100%;
   }
@@ -83,14 +91,26 @@
     height: 85%;
   }
 
+<<<<<<< HEAD
   #main-body {
     width: 100%;
+=======
+  #sidebar, #main-body {
+    width: 100%;
+  }
+
+  #main-body {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     padding-top: 10%;
     justify-content: flex-start;
   }
 
   #sidebar {
+<<<<<<< HEAD
     padding: 0;
+=======
+    padding: 0 3% 0 3%;
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     -webkit-flex-flow: row;
     -ms-flex-flow: row;
     flex-flow: row;
@@ -125,7 +145,11 @@
     height: 478px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 688px;
   }
 
@@ -150,7 +174,11 @@
     height: 478px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 688px;
   }
 
@@ -169,7 +197,11 @@
     height: 415px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 576px;
   }
 
@@ -189,7 +221,11 @@
     height: 406px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 560px;
   }
 
@@ -259,7 +295,11 @@
     height: 379px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 512px;
   }
 
@@ -279,7 +319,11 @@
     height: 361px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 480px;
   }
 
@@ -299,7 +343,11 @@
     height: 325px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 416px;
   }
 
@@ -323,7 +371,11 @@
     height: 307px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 384px;
   }
 
@@ -343,7 +395,11 @@
     height: 289px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 352px;
   }
 
@@ -367,7 +423,11 @@
     height: 262px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 304px;
   }
 
@@ -394,12 +454,20 @@
 }
 
 @media (min-width: 1024px) and (max-height: 490px) {
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
   html {
   	width: 100%;
     height: 200%;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
   #wrapper {
     height: 100%;
   }
@@ -471,7 +539,11 @@
     height: 478px;
   }
 
+<<<<<<< HEAD
   #slide-container, #sidebar {
+=======
+  #slide-container {
+>>>>>>> 752a381ef1842ca78cc95febe31e5232ff53ab07
     width: 688px;
   }
 
