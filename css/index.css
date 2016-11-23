@@ -1,0 +1,98 @@
+body {
+	padding: 5%;
+	font-family: 'Raleway', sans-serif;
+	background-color: #263238;
+	color: #e0e0e0;
+}
+
+a {
+	text-decoration: none;
+	color: #e0e0e0;
+	cursor: pointer;
+}
+
+header {
+	font-size: 2.1em;
+	font-family: 'Monoton', cursive, sans-serif;
+	margin-top: 0;
+	color: #fafafa;
+}
+
+#description {
+	font-size: 1em;
+	font-weight: 500;
+	margin-bottom: 10%;
+}
+
+nav {
+	display: flex;
+}
+
+nav > div {
+	font-weight: 600;
+}
+
+nav > div:hover {
+	cursor: pointer;
+}
+
+nav > div:nth-child(2) {
+	margin-left: 10%;
+	color: #9e9e9e;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul#music-controls {
+	width: 40%;
+	margin: 10% 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+ul#track-list > li {
+	height: 60px;
+	border-top: 1px solid;
+	display: flex;
+	align-items: center;
+}
+
+div#video-container {
+	display: none;
+}
+
+div#video-container > ul > li {
+	margin-bottom: 5%;
+}
+
+ul.video-list li {
+	width: 100%;
+	height: 100px;
+	margin: 5% 0;
+	background-color: #d5d5d5;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+ul#links {
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	font-size: 1.5em;
+}
+
+div#copyright {
+	font-size: .8em;
+}
+
+div#developer {
+	font-size: .6em;
+}
