@@ -1,7 +1,7 @@
 body {
 	padding: 5%;
 	font-family: 'Raleway';
-	background-color: #263238;
+	background-color: #212121;
 	color: #e0e0e0;
 }
 
@@ -12,7 +12,7 @@ a {
 
 header {
 	font-size: 2.4em;
-	font-weight: 800;
+	font-weight: 900;
 	line-height: 1.5em;
 	color: #fafafa;
 	margin-top: 0;
