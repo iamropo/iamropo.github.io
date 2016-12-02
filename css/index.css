@@ -42,6 +42,7 @@ nav {
 }
 
 nav > div {
+	font-size: 1.1em;
 	font-weight: 600;
 	padding-bottom: 3px;
 }
@@ -183,29 +184,16 @@ footer {
 ul#links {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	width: 60%;
 	font-size: 1.5em
 }
 
-.twitter {
-	color: #0084b4;
+ul#links li a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-.youtube {
-	color: #cd201f;
-}
-
-.email {
-	color: #fcd986;
-}
-
-.facebook {
-	color: #3b5998;
-}
-/*
-div#copyright {
-	font-size: .8em;
-}*/
 
 div#developer {
 	font-size: .6em;
