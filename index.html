@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Editor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div>
+			<button>
+				<label for="input">Add Image</label>
+			</button>
+      <input type="file" id="input">
+    </div>
+    
+    <div id="image-holder">
+    	<img id="subject-image" src="" alt="Subject Image">
+    </div>
+
+		<div id="filters">
+<!-- 			<div class="filter">
+				<span class="filter-name">Blur</span>
+				<div class="filter-amount-bar" data-filter="blur">
+					<div class="filter-amount"></div>
+				</div>
+			</div> -->
+			<div class="filter">
+				<span class="filter-name">Brightness</span>
+				<div class="filter-amount-bar" data-filter="brightness">
+					<div class="filter-amount"></div>
+				</div>
+			</div>
+			<div class="filter">
+				<span class="filter-name">Contrast</span>
+				<div class="filter-amount-bar" data-filter="contrast">
+					<div class="filter-amount"></div>
+				</div>
+			</div>
+<!-- 			<div class="filter">
+				<span class="filter-name">Drop Shadow</span>
+				<div class="filter-amount-bar" data-filter="drop-shadow">
+					<div class="filter-amount"></div>
+				</div>
+			</div> -->
+			<div class="filter">
+				<span class="filter-name">Grayscale</span>
+				<div class="filter-amount-bar" data-filter="grayscale">
+					<div class="filter-amount"></div>
+				</div>
+			</div>
+<!-- 			<div class="filter">
+				<span class="filter-name">Hue Rotate</span>
+				<div class="filter-amount-bar" data-filter="hue-rotate">
+					<div class="filter-amount"></div>
+				</div>
+			</div> -->
+			<div class="filter">
+				<span class="filter-name">Invert</span>
+				<div class="filter-amount-bar" data-filter="invert">
+					<div class="filter-amount"></div>
+				</div>
+			</div>
+			<div class="filter">
+				<span class="filter-name">Opacity</span>
+				<div class="filter-amount-bar" data-filter="opacity">
+					<div class="filter-amount"></div>
+				</div>
+			</div>
+			<div class="filter">
+				<span class="filter-name">Saturate</span>
+				<div class="filter-amount-bar" data-filter="saturate">
+					<div class="filter-amount"></div>
+				</div>
+			</div>
+			<div class="filter">
+				<span class="filter-name">Sepia</span>
+				<div class="filter-amount-bar" data-filter="sepia">
+					<div class="filter-amount"></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+
+  </body>
+</html>
