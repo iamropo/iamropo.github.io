@@ -1,3 +1,16 @@
+@media all and (min-width: 360px) {
+	nav > div:nth-child(2), nav > div:nth-child(3), nav > div:nth-child(4) {
+		margin-left: 8%;
+	}
+}
+
+@media all and (min-width: 380px) {
+	nav > div:nth-child(2), nav > div:nth-child(3), nav > div:nth-child(4) {
+		margin-left: 10%;
+	}
+}
+
+
 /*Blackberry playbook and Nexus 7*/
 @media all and (min-width: 600px) and (min-height: 960px) {
 	
