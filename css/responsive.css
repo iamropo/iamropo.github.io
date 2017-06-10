@@ -109,13 +109,10 @@
 }
 
 /*ipad pro*/
-@media all and (width: 1024px) and (height: 1366px) {
-		html {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-}
+
+/*--------------- Issue -------------*/
+
+/*--------------------*/
 
 /*kindle fire*/
 @media all and (min-width: 1600px) {
