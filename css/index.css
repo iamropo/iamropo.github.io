@@ -204,6 +204,12 @@ ul#links {
 	color: #3b5998;
 }
 
+.instagram {
+	  background: -webkit-linear-gradient(top left, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .logo {
 	width: 24px;
 }
