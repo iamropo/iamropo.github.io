@@ -205,7 +205,7 @@ ul#links {
 }
 
 .instagram {
-	  background: -webkit-linear-gradient(top left, red, blue);
+	  background: -webkit-linear-gradient( bottom left, red, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
