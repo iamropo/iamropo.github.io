@@ -3,6 +3,8 @@ body {
 	font-family: 'Raleway', sans-serif;
 	background-color: #212121;
 	color: #e0e0e0;
+	background-image: url('../images/bg.jpg');
+	background-position:  bottom right;
 }
 
 a {
@@ -183,8 +185,20 @@ footer {
 ul#links {
 	display: flex;
 	justify-content: space-around;
-	width: 60%;
+	width: 50%;
 	font-size: 1.5em
+}
+
+.twitter {
+	color: #4099ff;
+}
+
+.youtube {
+	color: #bb0000
+}
+
+.facebook {
+	color: #3b5998;
 }
 
 .logo {
