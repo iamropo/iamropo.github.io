@@ -177,7 +177,7 @@ img#profile-picture {
 	background-color: #d5d5d5;
 }
 
-p#bio-description {
+p#bio-description, p#contact-details {
 	font-size: .9em;
 	line-height: 1.5;
 }
