@@ -192,7 +192,7 @@ ul#links {
 	font-size: 1.5em
 }
 
-.twitter {
+/*.twitter {
 	color: #4099ff;
 }
 
@@ -208,7 +208,7 @@ ul#links {
 	  background: -webkit-linear-gradient( bottom left, red, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+}*/
 
 .logo {
 	width: 24px;
