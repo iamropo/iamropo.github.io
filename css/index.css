@@ -207,7 +207,7 @@ ul#links {
 	flex-flow: column;
 	justify-content: space-around;
 	width: 100%;
-	margin: 14px 0 14px 0;
+	margin-top: 14px;
 }
 
 ul#links > li {
@@ -224,6 +224,7 @@ span.uname {
 }
 
 footer {
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -250,6 +251,10 @@ footer {
 */
 .logo {
 	width: 24px;
+}
+
+div#copyright {
+	font-size: .9em;
 }
 
 div#developer {
