@@ -1,3 +1,7 @@
+html, body {
+	min-height: 100%;
+}
+
 body {
 	padding: 5%;
 	font-family: 'Raleway', sans-serif;
@@ -96,6 +100,7 @@ ul#track-list > li > div.progress-bar {
 	height: 3px;
 	background-color: #9e9e9e;
 	visibility: hidden;
+	cursor: text;
 }
 
 
@@ -109,13 +114,21 @@ ul#track-list > li > div.track-title {
 	height: 54px; 
 	width: 100%;
 	display: flex;
+	flex-flow: column;
 	align-items: center;
+	justify-content: center;
 }
 
-ul#track-list > li > div.track-title > span {
+ul#track-list > li > div.track-title > span.title {
 	width: 100%;
 	display: flex;
 	align-items: center;
+}
+
+ul#track-list > li > div.track-title > span.genre {
+	width: 100%;
+	font-size: .6em;
+	display: flex;
 }
 
 ul#track-list > li > div.support {
@@ -144,9 +157,14 @@ ul#discography-list > li > div.album-art {
 	background-color: #323232;
 }
 
+ul#discography-list > li > div.album-art > img {
+	width: 100%;
+}
+
 ul#discography-list >  li > ul.album-details {
 	height: 100%;
 	padding-left: 3%;
+	align-items: center;
 }
 
 ul#discography-list >  li > ul.album-details > li.album-title {
@@ -157,7 +175,7 @@ ul#discography-list >  li > ul.album-details > li.album-artist {
 	font-size: .9em;
 }
 
-ul#discography-list >  li > ul.album-details > li.album-year {
+ul#discography-list >  li > ul.album-details > li.album-year, ul#discography-list >  li > ul.album-details > li.role {
 	font-size: .8em;
 }
 
