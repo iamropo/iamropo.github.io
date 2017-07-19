@@ -187,13 +187,25 @@ div#contact-details-container {
 	display: none;
 	width: 100%;
 }
-
+/*
 img#profile-picture {
 	display: inline-block;
 	width: 100%;
 	height: 100px;
 	margin: 5% 0;
 	background-color: #d5d5d5;
+}*/
+
+div#profile-pic-container {
+	width: 100%;
+	height: 60px;
+	margin-top: 14px;
+/*	display: flex;
+	justify-content: center;*/
+}
+
+div#profile-pic-container > img {
+	height: 100%;
 }
 
 p#bio-description {
@@ -231,7 +243,7 @@ footer {
 	flex-flow: column;
 }
 
-/*.twitter {
+.twitter {
 	color: #4099ff;
 }
 
@@ -244,11 +256,11 @@ footer {
 }
 
 .instagram {
-	  background: -webkit-linear-gradient( bottom left, red, blue);
+	  background: -webkit-linear-gradient(bottom left, red, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-*/
+
 .logo {
 	width: 24px;
 }
